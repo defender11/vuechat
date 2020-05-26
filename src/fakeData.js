@@ -7,10 +7,10 @@ export const testUsers = [
 ]
 
 export const fakeHistory = [
-    // { userID: 1, text: "Привет, как дела ?", dateCreate: "25.05.2020, 14:03:04"},
-    // { userID: 2, text: "Привет, нормально. Чем занимаешься ?", dateCreate: "25.05.2020, 14:03:04"},
-    // { userID: 2, text: "Чего молчишь ?", dateCreate: "25.05.2020, 14:03:04"},
-    // { userID: 1, text: "Чат пишу :)", dateCreate: "25.05.2020, 14:03:04"},
-    // { userID: 2, text: "Получается ?))", dateCreate: "25.05.2020, 14:03:04"},
-    // { userID: 1, text: "Получается)", dateCreate: "25.05.2020, 14:03:04"},
+    { userID: 1, text: "Привет, как дела ?", dateCreate: "25.05.2020, 14:03:04"},
+    { userID: 2, text: "Привет, нормально. Чем занимаешься ?", dateCreate: "25.05.2020, 14:03:04"},
+    { userID: 2, text: "Чего молчишь ?", dateCreate: "25.05.2020, 14:03:04"},
+    { userID: 1, text: "Чат пишу :)", dateCreate: "25.05.2020, 14:03:04"},
+    { userID: 2, text: "Получается ?))", dateCreate: "25.05.2020, 14:03:04"},
+    { userID: 1, text: "Получается)", dateCreate: "25.05.2020, 14:03:04"},
 ]

@@ -1,10 +1,14 @@
 <template>
-  <b-list-group class="mb-2">
+  <b-list-group>
     <b-list-group-item
       v-for="user in usersList"
       :key="user.id"
-      class="d-none d-md-block"
-    >{{user.name}}</b-list-group-item>
+    >
+      <div class="d-flex justify-content-start align-items-center">
+        <b-icon icon="dot" font-scale="2" class="user__online"></b-icon> 
+        <span>{{user.name}}</span>
+      </div>
+    </b-list-group-item>
   </b-list-group>
 </template>
 
@@ -25,4 +29,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+  .user__online {
+    color: greenyellow;
+  }  
+  .user__offline {
+    color: grey;
+  }
 </style>

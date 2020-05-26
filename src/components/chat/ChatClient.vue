@@ -4,11 +4,17 @@
       <b-col xs="12" md="4">
 
         <Profile :user="user" />
+          <hr class="mb-0">
 
-        <UserList 
-          :owner-id="user.id"
-          :users="users"
-        />
+        <div class="d-none d-md-block">
+          <div class="text-left border pl-2 bg-white rounded">
+            <small class="text-muted">Пользователи</small>
+          </div>
+          <UserList 
+            :owner-id="user.id"
+            :users="users"
+          />
+        </div>
 
       </b-col>
       <b-col xs="12" md="8">
@@ -75,5 +81,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
 </style>
